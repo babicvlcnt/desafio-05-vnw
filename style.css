@@ -1,0 +1,44 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: rgb(153, 18, 8);
+    font-family: 'Elsie Swash Caps' cursive;
+}
+body {
+    background-color: #f8be1d;
+}
+header {
+    width: 20vw;
+    margin-top: 2em;
+    margin-left: 4em;
+    display: flex;
+    justify-content: center;
+}
+.conteiner-text {
+    width: 45vw;
+    height: 65vh;
+    padding-top: 1em;
+    padding-left: 4em;
+}
+.conteiner-img {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    left: 7vw;
+}
+.prato-de-baiao {
+    width: 40vw;
+    position: relative;
+    left: 45vw;
+    top: -60vh;
+}
+.ingredientes {
+    padding-top: 1em;
+    padding-left: 2em;
+}
+h6 {
+    display: flex;
+    flex-direction: row-reverse;
+    padding-right: 1em;
+}
